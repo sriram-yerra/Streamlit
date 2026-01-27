@@ -79,6 +79,9 @@ async def detect(
         "download_url": f"/download/{object_name}"
     })
 
+'''
+for the below endpoint, fetcg the downloaded image through file id...!
+'''
 @app.get("/download/{filename}")
 def download_file(filename: str):
     file_path = os.path.join(SAVE_DIR, filename)
