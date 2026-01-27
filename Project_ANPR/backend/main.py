@@ -80,7 +80,7 @@ async def detect(
     })
 
 '''
-for the below endpoint, fetcg the downloaded image through file id...!
+For the below endpoint, fetcg the downloaded image through file id...!
 '''
 @app.get("/download/{filename}")
 def download_file(filename: str):
